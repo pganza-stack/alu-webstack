@@ -30,4 +30,4 @@ frontend https_front
 backend web_servers
     balance roundrobin
     server 7000-web-01 13.135.168.31:80 check
-    server 7000-web-02 35.179.171.137:80 check
+    server 7000-web-02 18.171.165.221:80 check
